@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 df_friends = pd.read_csv("datasets/friends_episodes_v2.csv")
-st.title("Friends Episodes")
+st.title("Friends Episodes Visual")
 
 
 nota_maxima = df_friends["Stars"].max()
